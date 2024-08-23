@@ -26,13 +26,19 @@ In this project, I used Amazon VPC to:
    - **Concept**: VPCs are a single-tenant concept that allows you to create a private space within the public cloud's architecture.
    - **Setup**: I defined an IPv4 CIDR (Classless Inter-Domain Routing) block for my VPC. A default VPC existed in my account, which AWS automatically created when my account was set up.
 
+![Virtual Private Cloud (VPC)]( Documentation/high-step1.1.png) 
+
 #### 2. **Subnets**
    - **Description**: Subnets are regional resources with associated IP address ranges. My account already had subnets for every Availability Zone (AZ) in my region.
    - **Setup**: I created a subnet named `Public 1`. For a subnet to be considered public, it must have a route in its route table directing traffic destined for the internet to an internet gateway.
 
+![Subnets]( Documentation/high-step2.1.png) 
+
 #### 3. **Internet Gateway**
    - **Description**: Internet gateways are AWS-managed resources that enable instances within a VPC to connect to the internet.
    - **Setup**: Attaching an internet gateway to my VPC enabled internet connectivity for instances with public IP addresses.
+
+![Internet Gateway]( Documentation/high-step3.1.png) 
 
 ## Challenges and Learnings
 

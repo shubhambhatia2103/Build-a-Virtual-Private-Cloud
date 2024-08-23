@@ -1,12 +1,13 @@
 # Build-a-Virtual-Private-Cloud
 This project demonstrates how to set up an Amazon Virtual Private Cloud (VPC), including the configuration of subnets and an internet gateway. The purpose of this project was to create a customizable network space within AWS, allowing for isolation, security, and control over network configurations.
 
-![architecture](Documentation/architecture.png) 
+
 
 ## What is Amazon VPC?
 
 Amazon Virtual Private Cloud (VPC) is a customizable network space in AWS that enables the launch of AWS resources in a virtual network. It provides developers and teams with isolation, security, and the ability to control their network configurations.
 
+![architecture](Documentation/architecture.png) 
 ## Project Details
 
 ### Time to Complete
